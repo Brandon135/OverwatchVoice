@@ -1,0 +1,15 @@
+﻿<Window x:Class="OverwatchFacter.MainCore"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OverwatchFacter"
+        mc:Ignorable="d"
+        Title="MainCore" Height="300" Width="500">
+    <Grid>
+        <Button Content="시작" HorizontalAlignment="Left" Height="33" Margin="39,204,0,0" VerticalAlignment="Top" Width="78" Click="StartSkill_Click"/>
+        <Button Content="설정"  HorizontalAlignment="Left" Height="33" Margin="322,204,0,0" VerticalAlignment="Top" Width="78" Click="Setting_Click"/>
+        <Label Content="Label1" HorizontalAlignment="Left" Margin="92,140,0,0" VerticalAlignment="Top"/>
+        <Button Name="save" Content="Save" HorizontalAlignment="Left" Height="29" Margin="322,118,0,0" VerticalAlignment="Top" Width="78" Click="Save_Click"/>
+    </Grid>
+</Window>
